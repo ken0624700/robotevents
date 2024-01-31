@@ -1,3 +1,3 @@
 # Team 8000B
 
-[Index][doc/index.html]
+[Index](doc/index.html)
