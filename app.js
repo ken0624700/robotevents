@@ -1,4 +1,4 @@
-import Events from './components/events';
+import Events from './components/events.js';
 
 const teamIds = [
 	'23032', // 8000B
