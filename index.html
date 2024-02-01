@@ -17,6 +17,8 @@
 <link
 	href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css"
 	rel="stylesheet">
+		
+<link href="styles/main.css" rel="stylesheet">
 
 <script src="https://unpkg.com/vue@3"></script>
 <script src="https://unpkg.com/vue-router@4"></script>
@@ -63,9 +65,9 @@
 	<main role="main">
 
 		<!-- Main jumbotron for a primary marketing message or call to action -->
-< 		<div class="jumbotron">
+< 		<div class="jumbotron py-5">
 			<div class="container">
-				<h1 class="display-3">Hello, world!</h1>
+				<img src="images/team_photo.jpg" class="fit"/>
 				<p>This is a template for a simple marketing or informational
 					website. It includes a large callout called a jumbotron and three
 					supporting pieces of content. Use it as a starting point to create
@@ -153,9 +155,6 @@
 	</script>
 	<script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
 	<script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js"></script>
-	<script>
-		const app = Vue.createApp();
-		app.mount('#app');
-	</script>
+	<script type="module" src="app.js"></script>
 </body>
 </html>
